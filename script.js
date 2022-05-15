@@ -36,4 +36,21 @@ let geoLoc="Italy";
 let jobTitle="programmer";
 
 
-document.writeln(`<p>I will be a ${jobTitle} in ${geoLoc}, and married to ${partnerName} with ${numChild} kids. </p>`);
+document.write(`<p>I will be a ${jobTitle} in ${geoLoc}, and married to ${partnerName} with ${numChild} kids. </p>`);
+
+
+
+//ex2
+//can do calculation salary in document.write
+let name= 'kyle';
+let email= 'kyle.z.parker3@gmail.com';
+let password= '1234';
+let age= 29;
+let country= 'US';
+const months= 12;
+let salary= 2000 *months;
+
+
+
+
+document.writeln(`<p>name: ${name}</p><p>email: ${email}</p><p>salary: ${salary}</p>`);
